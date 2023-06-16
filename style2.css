@@ -1,0 +1,179 @@
+body {
+    font-family: 'Lato',sans-serif;
+    margin: 0;
+    width: 19x;
+    background-color: #202020;
+}
+
+.header {
+    background-color: #202020;
+    display: flex;
+    flex-direction: column;
+    width: 1905px;
+}
+
+.top {
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+
+ul {
+    list-style-type: none;
+    margin:0;
+    padding:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-item:nth-child(1) img {
+    padding-top: 4px;
+    width: 80px; 
+    height: 15px;
+}
+  
+.logo-item:nth-child(2) img{
+    width: 90px;
+    height: 14px;
+}
+  
+.logo-item:nth-child(3) img {
+    padding-top:5px;
+    width: 70px;
+    height: 25px; 
+}
+
+.logo-item:nth-child(4) img {
+    width: 40px; 
+    height: 18px;
+}
+
+.logo-item:nth-child(5) img {
+    width: 90px; 
+    height: 15px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #e5e7eb;
+}
+
+.headerlogo img{
+    width: 80px;
+    height:40px;
+}
+
+/*  */
+
+.topmid {
+    padding: 50px 340px;
+    display: flex;
+    justify-content: center;
+}
+
+.topmidbackg{
+    position:relative;
+}
+
+.leftside {
+    position: absolute;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+    gap: 10px;
+    top: 140px;
+    left: 400px;
+}
+
+.rightside {
+    position:absolute;
+    top: 110px;
+    left: 1200px;
+}
+
+.title{
+    font-size: 36px;
+    font-weight: 900;
+}
+
+.info{
+    display: flex;
+    gap: 25px;
+}
+
+.description{
+    font-weight:bold;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 700px;
+}
+
+/*  */
+
+.mid{
+    display: flex;
+    justify-content: center;
+    height: 800px;
+    width: 1905px;
+}
+
+.player{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 750px;
+    width: 1225px;
+}
+
+.player img {
+    height: 150px;
+}
+
+.player img:hover{
+    cursor:pointer;
+    filter: brightness(120%);
+}
+
+.bottommid{
+    display: flex;
+    padding-bottom: 50px;
+    justify-content: center;
+    gap:95px;
+}
+
+.leftside2{
+    display:flex;
+    gap: 50px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.lastep img{
+    padding-left: 110px;
+}
+
+.rightside2{
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 50px;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.nextep img{
+    padding-left: 110px;
+}
+
+.lastep, .nextep{
+    padding-top: 30px;
+}
+
+.lastep:hover, .nextep:hover{
+   cursor:pointer;
+}

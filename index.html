@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  </head>
+  <body>
+    <div class="header">
+        <div class="top">
+         <div class="headerlogo"><img src = "./images/logo.png" alt="websitelogo"></div>
+         <ul class="links">
+          <li class="logo-item"><img src="./images/netflix-logo.png" alt="Netflix"></li>
+          <li class="logo-item"><img src="./images/hbomax-logo.png" alt="HBO Max"></li>
+          <li class="logo-item"><img src="./images/disney-logo.png" alt="Disney"></li>
+          <li class="logo-item"><img src="./images/appletv-logo.png" alt="AppleTV+"></li>
+          <li class="logo-item"><img src="./images/primevideo-logo.png" alt="Prime Video"></li>
+        </ul>
+        </div>
+
+         <div class="bottom">
+          <div class="imagehb">
+            <img src="./images/lou.jpg" alt="last of us" width="1905">
+          </div>
+          <div class="leftside2">
+            <button class="signingbutton"><i class="fas fa-play"></i>TRY NOW</button>
+          </div>
+          
+         </div>
+      </div>
+
+      <div class="topb">
+          <div class="titleb">Best TV Series</div>
+          <div class ="scroll-holder">
+            <div class="content scroll-tray">
+              <div class="imagetb dark">
+                  <img src="./images/darkwall.jpg" alt="dark" width="250" height="175" data-tvshow="first">
+              </div>
+
+              <div class="imagetb bb">
+                  <img src="./images/bbwall.jpg" alt="breaking bad" width="250" height="175" data-tvshow="second">
+              </div>
+            
+              <div class="imagetb mrrobot">
+                  <img src="./images/mrrobotwall.jpg" alt="mr.robot" width="250" height="175" data-tvshow="third">
+              </div>
+            
+              <div class="imagetb lost">
+                  <img src="./images/lostwall.jpg" alt="lost" width="250" height="175" data-tvshow = "fourth">
+              </div>
+
+              <div class="imagetb got">
+                  <img src="./images/gotwall.jpg" alt="game of thrones" width="250" height="175" data-tvshow = "fifth">
+              </div>
+
+              <div class = "imagetb aot">
+                  <img src="./images/aotwall.jpg" alt="attack on titan" width ="250" height="175" data-tvshow = "sixth">
+              </div>
+
+              <div class = "imagetb hannibal">
+                <img src="./images/hannibalwall.jpg" alt="hannibal" width ="250" height="175" data-tvshow = "seventh">
+              </div>
+
+              <div class = "imagetb narcos">
+                <img src = "./images/narcoswall.jpg" alt="narcos" width ="250" height="175" data-tvshow = "eighth">
+              </div>
+
+              <div class = "imagetb succesion">
+                <img src = "./images/succesionwall.jpg" alt="succesion" width ="250" height="175" data-tvshow = "ninenth">
+              </div>
+
+              <div class = "imagetb pb">
+                <img src = "./images/pbwall.jpg" alt="peaky blinders" width ="250" height="175" data-tvshow = "tenth">
+              </div>
+          </div>
+          </div>
+          </div>
+
+
+            <div class="overlay hidden"></div>
+            <div class = "modalBox hidden">
+              <div class = "leftsidetb">
+                <img src = "" alt = "dark poster" height="375" width="250">
+              </div>
+
+              <div class = "rightsidetb">
+                <button class = "closeBtn"><i class="fas fa-times"></i></button>
+                <div class = "titleTextModal"></div>
+                <div class = "info">
+                    <div class = "type"></div>
+                    <div class = "time"></div>
+                    <div class = "run"></div>
+                </div>
+                <div class = "description"></div>
+                <div class = "trailerimdb">
+                  <button class = "trailer"><i class="fas fa-play"></i>WATCH TRAILER</button>
+                  <button class = "watchnow"><i class="fas fa-tv"></i>WATCH NOW</button>
+                  <div class = "imdbscore">
+                    <div class = "imdb">IMDb:</div>
+                    <div class = "score"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="midb">
+          <div class = "topmidb">
+            <div class = "titleb">Most Popular</div>
+            <div class = "tvmovieanime">
+              <button class="tvbtn tma btnv2">TV SERIES</button>
+              <button class="movbtn tma">MOVIES</button>
+              <button class="anime tma">ANIME</button>
+            </div>
+          </div>
+          <div class = "imagemidb">
+            <img src = "images/stwall2.jpg" alt = "stranger things" width="1905" height="500"></div>
+          <div class = "posterst hov">
+              <img src = "images/stranger-things-seasons-i132237.jpg" alt = "stranger things poster" height="375" width="250">
+          </div>
+          <div class = "titlemidb">Stranger Things</div>
+          <div class = "infomid">
+                    <div class = "typemid">FANTASY</div>
+                    <div class = "timemid">1h</div>
+                    <div class = "runmid">2016-current</div>
+          </div>
+          <div class = "descriptionmid">When a young boy disappears, his mother, a police chief and his friends must confront terrifying supernatural forces in order to get him back.</div>
+          <div class = "trailerimdb">
+            <button class = "trailer midbt"><i class="fas fa-play"></i>WATCH TRAILER</button>
+            <button class = "watchnow midbwn"><i class="fas fa-tv"></i>WATCH NOW</button>
+            <div class = "imdbscore midbts">
+              <div class = "imdb">IMDb:</div>
+              <div class = "score sptv">8.7</div>
+            </div>
+          </div>
+          <div class = "play hov">
+            <img src = "images/playbutton.png" width="150" height="150">
+          </div>
+        </div>
+
+
+          <div class = "onebottomb">
+            <div class = "titleb">Top Rated Movies</div>
+            <div class = "backgroundimg">
+              <img src="./images/srwall.jpg" alt="Background Image" width="1905" height="800">
+            </div>
+              <div class = "posters">
+                <div class = "poster sr">
+                  <img src ="images/ShawshankRedemptionMoviePoster.jpg" alt="shawnshankrposter" height="375" width="250" data-movie = "firstm">
+                </div>
+                <div class = "poster in">
+                  <img src = "images/inception.jpg" alt="inceptionposter" height="375" width="250" data-movie = "secondm">
+                </div>
+                <div class = "poster tdk">
+                  <img src = "images/thedarkknight.jpg" alt = "thedarkknightposter" height="375" width = "250" data-movie = "thirdm">
+                </div>
+                <div class = "poster dju">
+                  <img src = "images/Django_Unchained_Poster.jpg" alt = "djangounchained" height="375" width = "250" data-movie = "fourthm">
+                </div>
+                <div class = "poster s7">
+                  <img src = "images/se7en.jpg" alt = "se7en" height="375" width = "250" data-movie = "fifthm">
+                </div>
+              </div>
+
+              <div class = "titleob">Shawnshank Redeption</div>
+              <div class = "infoob">
+                    <div class = "typeob">DRAMA</div>
+                    <div class = "timeob">2h 22m</div>
+                    <div class = "runob">1994</div>
+              </div>
+              <div class = "descriptionob">Over the course of several years, two convicts form a friendship, seeking consolation and, eventually, redemption through basic compassion.</div>
+              <div class = "trailerimdb">
+                <button class = "trailer obt"><i class="fas fa-play"></i>WATCH TRAILER</button>
+                <button class = "watchnow obwn"><i class="fas fa-tv"></i>WATCH NOW</button>
+                <div class = "imdbscore obts">
+                  <div class = "imdb imdbob">IMDb:</div>
+                  <div class = "score sob">9.3</div>
+                </div>
+              </div>
+            </div>
+
+
+        <div class = "onebottomb2">
+          <div class = "topob2b">
+            <div class = "titleb">Upcoming</div>
+            <div class = "tvmovieanime">
+              <button class="tvbtn2 tma btnv2">TV SERIES</button>
+              <button class="movbtn2 tma">MOVIES</button>
+              <button class="anime2 tma">ANIME</button>
+            </div>
+          </div>
+          <div class = "imageobb2">
+            <img src = "images/upcomingwall.jpg" alt = "upcomingwall" width="1905" height="500"></div>
+          <div class = "poster silo">
+            <img src = "images/siloposter.jpg" alt = "silo" height="375" width = "250">
+          </div>
+          <div class = "poster diplomat">
+              <img src = "images/diplomatposter.jpg" alt = "diplomat" height="375" width = "250">
+          </div>
+          <div class = "poster lad">
+            <img src = "images/ladposter.jpg" alt = "love&death" height="375" width = "250">
+          </div>
+        </div>
+        </div>
+        
+        <div class ="twobottomb">
+            <div class = "titleb">Trilogies</div>
+          <div class = "imagetbb">
+            <img src = "images/trilogywall.jpg" alt = "upcomingwall" width="1905" height="500"></div>
+          <div class="lotr">
+            <div class = "postertm lotr3">
+              <img src ="images/lotr3poster.jpg" alt="lotr3" height="375" width="250" data-moviet = "firsttm">
+            </div>
+            <div class = "postertm lotr2">
+              <img src ="images/lotr2poster.jpg" alt="lotr2" height="375" width="250" data-moviet = "secondtm">
+            </div>
+            <div class = "postertm lotr1">
+              <img src ="images/lotr1poster.jpg" alt="lotr1" height="375" width="250" data-moviet = "thirdtm">
+            </div>
+          </div>
+          <div class="godfather">
+            <div class = "postertm godfather3">
+              <img src = "images/godfather3poster.jpg" alt="godfather3" height="375" width="250" data-movie = "ninethm">
+            </div>
+            <div class = "postertm godfather2">
+              <img src = "images/godfather2poster.jpg" alt="godfather2" height="375" width="250" data-movie = "tenthm">
+            </div>
+            <div class = "postertm godfather">
+              <img src = "images/godfatherposter.jpg" alt="godfather" height="375" width="250" data-movie = "eleventhm">
+            </div>
+          </div>
+
+          <div class="before">
+            <div class = "postertm beforemidnight">
+              <img src = "images/beforemidnightposter.jpg" alt="beforemidnight" height="375" width="250" data-movie = "twelfthm">
+            </div>
+            <div class = "postertm beforesunset">
+              <img src = "images/beforesunsetposter.jpg" alt="beforesunset" height="375" width="250" data-movie = "thirteenthm" >
+            </div>
+            <div class = "postertm beforesunrise">
+              <img src = "images/beforesunriseposter.jpg" alt="beforesunrise" height="375" width="250" data-movie = "fourteenthm">
+            </div>
+          </div>
+
+          <div class = "hangover">
+            <div class = "postertm hangover3">
+              <img src = "images/hangover3poster.jpg" alt = "hangover3" height="375" width="250">
+            </div>
+            <div class = "postertm hangover2">
+              <img src = "images/hangover2poster.jpg" alt = "hangover2" height="375" width="250">
+            </div>
+            <div class = "postertm hangover">
+              <img src = "images/hangoverposter.jpg" alt = "hangover" height="375" width="250">
+            </div>
+          </div>
+
+          <div class="overlay hidden"></div>
+            <div class = "modalBox2 hidden">
+              <div class ="contentmodal">
+                <div class = "duplicates lotrd">
+                  <div class = "postertmd lotr11">
+                    <img src ="images/lotr1poster.jpg" alt="lotr1" height="375" width="250" data-movie = "eighthm">
+                  </div>
+                  <div class = "postertmd lotr21">
+                    <img src ="images/lotr2poster.jpg" alt="lotr2" height="375" width="250" data-movie = "seventhm">
+                  </div>
+                  <div class = "postertmd lotr31">
+                    <img src ="images/lotr3poster.jpg" alt="lotr3" height="375" width="250" data-movie = "sixthm">
+                  </div>
+                </div>
+                <div class = "duplicates godfatherd">
+                  <div class = "postertmd godfather1">
+                    <img src = "images/godfatherposter.jpg" alt="godfather" height="375" width="250" data-movie = "eleventhm">
+                  </div>
+                  <div class = "postertmd godfather21">
+                    <img src = "images/godfather2poster.jpg" alt="godfather2" height="375" width="250" data-movie = "tenthm">
+                  </div>
+                  <div class = "postertmd godfather31">
+                    <img src = "images/godfather3poster.jpg" alt="godfather3" height="375" width="250" data-movie = "ninethm">
+                  </div>
+                </div>
+                <div class = "duplicates befored">
+                  <div class = "postertmd beforesunrise1">
+                    <img src = "images/beforesunriseposter.jpg" alt="beforesunrise" height="375" width="250" data-movie = "fourteenthm">
+                  </div>
+                  <div class = "postertmd beforesunset1">
+                    <img src = "images/beforesunsetposter.jpg" alt="beforesunset" height="375" width="250" data-movie = "thirteenthm" >
+                  </div>
+                  <div class = "postertmd beforemidnight1">
+                    <img src = "images/beforemidnightposter.jpg" alt="beforemidnight" height="375" width="250" data-movie = "twelfthm">
+                  </div>
+                </div>
+                <div class = "duplicates hangoverd">
+                  <div class = "postertmd hangover1">
+                    <img src = "images/hangoverposter.jpg" alt = "hangover" height="375" width="250">
+                  </div>
+                  <div class = "postertmd hangover21">
+                    <img src = "images/hangover2poster.jpg" alt = "hangover2" height="375" width="250">
+                  </div>
+                  <div class = "postertmd hangover31">
+                    <img src = "images/hangover3poster.jpg" alt = "hangover3" height="375" width="250">
+                  </div>
+                </div>
+
+                <div class = "dupliinfo firstmovie">
+                  <div class = "titleob2fm"></div>
+                  <div class = "infoob2">
+                    <div class = "typeob2fm"></div>
+                    <div class = "timeob2fm"></div>
+                    <div class = "runob2fm"></div>
+                  </div>
+                </div>
+
+                <div class = "dupliinfo secondmovie">
+                  <div class = "titleob2sm"></div>
+                  <div class = "infoob2">
+                    <div class = "typeob2sm"></div>
+                    <div class = "timeob2sm"></div>
+                    <div class = "runob2sm"></div>
+                  </div>
+                </div>
+
+                <div class = "dupliinfo thirdmovie">
+                  <div class = "titleob2tm"></div>
+                  <div class = "infoob2">
+                    <div class = "typeob2tm"></div>
+                    <div class = "timeob2tm"></div>
+                    <div class = "runob2tm"></div>
+                  </div>
+                </div>
+
+                <div class = "descriptiontbb"></div>
+                <button class = "watchnow tbb"><i class="fas fa-tv"></i>WATCH NOW</button>
+                <button class = "watchnow tbb2"><i class="fas fa-tv"></i>WATCH NOW</button>
+                <button class = "watchnow tbb3"><i class="fas fa-tv"></i>WATCH NOW</button>
+                <button class = "closeBtn secBtn"><i class="fas fa-times"></i></button>
+        </div>
+        </div>
+      </div>
+
+
+
+        <div class="threebottomb">
+          <img src="images/subscribewall.jpg" alt="subscribe" height="310" width="1905">
+          <button class="signingbutton sbtn2"><i class="fas fa-play"></i>GET STARTED</button>
+          </div>
+        </div>
+        </div>
+
+        
+    <div class="footer">
+      <div class="textf">2023 Copyright © cinemaSPHERE</div>
+    </div>
+
+    </div>
+    </div>
+
+  </body>
+</html>
